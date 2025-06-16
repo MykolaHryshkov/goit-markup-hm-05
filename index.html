@@ -420,8 +420,116 @@
             </a>
           </li>
         </ul>
+        
+        <div class="footer__subscribe-wrapper">
+            <p class="footer__subscribe-text">Subscribe</p>
+            <form class="footer__subscribe-form">
+                <label class="footer__subscribe-label">
+                    <input class="footer__subscribe-input" type="email" name="email-field" placeholder="E-mail" />
+                </label>
+                <button type="submit" name="email-subscribe-button" class="footer__subscribe-button">
+                    Subscribe
+                    <svg class="footer__subscribe-icon" aria-label="icon-send" width="24" height="24">
+                        <use href="./images/icons.svg#icon-send"></use>
+                    </svg>
+                </button>
+                </form>
+
       </div>
     </div>
     </footer>
+
+        
+<!-- <div class="modal-overlay is-open">  -->
+    <div class="modal">
+        <button type="button" class="modal-close">
+            <svg class="modal-close-icon" width="8" height="8">
+            <use href="/images/icons.svg#icon-cross"></use>
+        </svg></button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+
+        <form class="modal-form">
+            <div class="divform">
+                <label><span class="modal_input_text">Name</span></label>
+    
+                <div class="modal_input_cover">
+                    <input type="text" class="modal-input" name="user-name"/>
+                    <svg class="modal_input_icon" width="12" height="12">
+                        <use href="/images/icons.svg#icon-namevector"></use>
+                    </svg>
+                </div>
+            </div>
+        
+        
+        <div class="divform">
+            <label><span class="modal_input_text">Phone</span></label>
+                <div class="modal_input_cover">
+                    <input type="text" class="modal-input" name="user-phone"/>
+                    <svg class="modal_input_icon" width="13" height="13">
+                        <use href="/images/icons.svg#icon-phonevector"></use>
+                    </svg>
+                </div>
+        </div>
+        
+
+        <div class="divform">
+            <label><span class="modal_input_text">Email</span></label>
+                <div class="modal_input_cover">
+                    <input type="text" class="modal-input" name="user-email"/>
+                    <svg class="modal_input_icon" width="15" height="12">
+                        <use href="/images/icons.svg#icon-emailvector"></use>
+                    </svg>
+                </div>
+        </div>
+
+        <div class="divform">
+            <label><span class="modal_input_text">Comment</span></label>
+            <div class="modal_input_cover">
+                <textarea class="modal__text-field" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+            </div>
+        </div>
+
+        <div>
+        <input type="checkbox"
+        name="policy"
+        id="policy"
+        class="modal_check visually-hidden " 
+        value="true"/>
+        <label for="policy" class="check-text"><span class="check-element"><svg class="check-icon" width="10" height="8">
+            <use href="/images/icons.svg#icon-vector"></use>
+        </svg></span>I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+    </div>
+
+
+<!-- ---------------------- -->
+        <!-- <div class="modal__check-wrapper">
+            <input class="modal__check-input visually-hidden" type="checkbox" name="user-privacy" id="user-privacy"
+                value="true" />
+            <label class="modal__check-text" for="user-privacy">
+                <span class="modal__check-box">
+                    <svg class="modal__icon-check" aria-label="icon-check-white" width="10" height="8">
+                        <use href="./images/icons.svg#icon-check-white"></use>
+                    </svg></span>
+                I accept the terms and conditions of the
+                <a class="modal__link-text" href="">Privacy Policy</a></label>
+        </div> -->
+        <!-- ----------------- -->
+        <!-- <div class="modal_field">
+<label for="yes">yes</label>
+<input type="radio" id="yes"
+name="question">
+<label for="no">no</label>
+<input type="radio" id="no"
+name="question">
+        </div> -->
+     
+
+            <button type="submit" class="buttonsubmit">SEND</button>
+        
+        </form>
+    
+    </div>
+</div>
+
 </body>
 </html>
