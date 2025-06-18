@@ -787,6 +787,13 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
             line-height: 1.17;
     }
 
+
+        .modal_check:checked+.check-text .check-element {
+            background-color: #404BBF;
+            fill: #F4F4FD;
+            border: none;   }
+
+            
 .check-element {
 width: 16px;
 height: 16px;
@@ -804,11 +811,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
     display: inline-flex; 
 }
 
-.modal_check:checked + .check-text .check-element {
-    background-color: #404BBF;
-    fill: #F4F4FD;
-    border: none;
-}
+
 
 .divcheckbox {
 
