@@ -578,19 +578,21 @@ margin-bottom: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+        border-radius: 4px;
 }
 
 .footer-btn-text {
 padding-top: 8px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #ffffff;
-cursor: pointer;
-border-radius: 4px;
-
 }
 
+.footer__subscribe-icon {
+    margin-left: 16px;
+}
 
 .modal-overlay {
     width: 100%;
