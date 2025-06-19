@@ -522,7 +522,7 @@ fill: #f4f4fd;
 
 
 .footer__icon-wrapper {
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     align-items: center;
     
@@ -574,7 +574,6 @@ margin-bottom: 16px;
     border: none;
     background-color: #4D5AE5;
     color: #FFFFFF;
-    margin-left: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -584,6 +583,7 @@ margin-bottom: 16px;
         color: #ffffff;
         cursor: pointer;
         border-radius: 4px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-btn-text {
@@ -665,9 +665,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 
 }
 
-.divform {
-    margin-bottom: 8px;
-}
+
 
 .divformfour {
     margin-bottom: 16px;
@@ -720,6 +718,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 
 .buttonsubmit {
     margin-top: 240px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__text-field {
@@ -728,7 +727,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
     border: 1px solid rgba(46, 47, 66, 0.4);
     background-color: transparent;
     border-radius: 4px;
-    padding-left: 19px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
@@ -811,11 +809,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 }
 
 
-
-.divcheckbox {
-    margin-bottom: 24px;
-}
-
 .privacypolicy {
     margin-left: 4px;
     color: #4d5ae5;
@@ -824,3 +817,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 
 
 
+
+footer-btn:hover,
+footer-btn:focus {
+    background-color: #404BBF;
+}
